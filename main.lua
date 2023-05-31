@@ -2,7 +2,7 @@ local Global = (getgenv and getgenv()) or getfenv(0)
 local ReanimSettings = Global.ReanimateSettings;
 if not ReanimSettings then ReanimSettings = {}; Global.ReanimateSettings = ReanimSettings end
 
--- some settings into vars so will not break when changing while reanimated
+-- some settings into vars so will not break when changing while reanimated ok?
 local AntiSleepParts = ReanimSettings.AntiSleep or false
 local AntiVoid = ReanimSettings.AntiVoid or false
 
